@@ -1,6 +1,5 @@
 import { Text, View } from "react-native";
-import Button from "@/components/atoms/Buttons";
-import Label from "@/components/atoms/Label";
+import Name from "@/components/atoms/Name";
 import InputForm from "@/components/molecules/InputForm";
 
 export default function Index() {
@@ -13,9 +12,8 @@ export default function Index() {
       }}
     >
       <InputForm
-              textForLabel="i'm a Label!"
-              textForButton="i'm a button!"
-              textForPlaceholder="i'm a placeholder!"/>
+              textForName="Michael Bennett"
+              textForPlaceholder="Good Job."/>
     </View>
   );
 }

@@ -1,10 +1,23 @@
-import {Button as NativeButton, View } from "react-native"
+import {Image as NativeImage, View, StyleSheet } from "react-native"
 
-export default function Button({ buttonText }){
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+  },
+  size: {
+    width: 50,
+    height: 50,
+    resizeMode: 'stretch',
+    borderRadius:'40px',
+  },
+});
+
+export default function Image({}){
     return (
         <View>
-            <NativeButton title={buttonText}
-            color="red" 
+            <NativeImage 
+            style={styles.size}
+            source={require('@/assets/images/MichaelProfile.jpeg')}
             />
         </View>
     )
