@@ -1,5 +1,4 @@
 import { View, Text} from "react-native";
-import Image from "@/components/atoms/ProfileImage"
 
 export default function Profile({ bioInfo, bioName}) {
     return (
@@ -10,7 +9,7 @@ export default function Profile({ bioInfo, bioName}) {
                 paddingBottom: "80px"
             }}
         >
-            <Image bioImage="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg"/>
+            
             <Text
                 style={{
                     fontSize: "25px",
