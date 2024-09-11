@@ -2,6 +2,7 @@ import { Text, View } from "react-native";
 import Name from "@/components/atoms/Name";
 import Post from "@/components/molecules/Post";
 import Profile from "@/components/molecules/Profile";
+import ProfileImage from "@/components/atoms/ProfileImage";
 
 export default function Index() {
   return (
