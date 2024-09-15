@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 import Image from "@/components/atoms/ProfileImage";
 import Bio from "@/components/atoms/Bio";
 
-export default function Profile({ bioInfo, bioName }) {
+export default function Profile({ bioName }) {
     return (
         <View
             style={{
@@ -29,7 +29,7 @@ export default function Profile({ bioInfo, bioName }) {
                 About:
             </Text>
             
-            <Bio bioInfo={bioInfo}/>
+            <Bio bioInfo={James Miller is a New York-based digital marketing strategist with a knack for helping brands tell their stories through data-driven insights. When he's not crafting compelling campaigns, you can find him exploring new cities, diving into a good book, or enjoying a strong cup of coffee. Passionate about fitness and food, James believes in balancing work and life with a dash of adventure.}/>
            
         </View>
     )
