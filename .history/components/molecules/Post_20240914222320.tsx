@@ -1,10 +1,9 @@
 import {View, TextInput} from "react-native"
 import Name from "@/components/atoms/Name"
 import Image from "@/components/atoms/Image";
-import Message from "@/components/atoms/Message";
 import Bio from "@/components/atoms/Bio"
 
-export default function InputForm({ textForName, textForMessage}){
+export default function InputForm({ textForName, textForPlaceholder }){
     return (
 
 <View
@@ -22,7 +21,7 @@ style={{
             <Name nameText={textForName}/>
             {/* <TextInput defaultValue={textForPlaceholder}
             /> */}
-            <Message messageText={textForMessage}/>
+            <Bio bioInfo={textForPlaceholder}/>
         </View>
     )
 }
