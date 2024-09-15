@@ -18,7 +18,7 @@ export default function Index() {
       />
       <Post
               textForName="Michael Bennett"
-              textForPlaceholder="Good Job."/>
+              textForMessage="Good Job."/>
     </View>
   );
 }
