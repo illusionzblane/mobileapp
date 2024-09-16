@@ -12,7 +12,7 @@ style={{
     gap:10,
     alignItems:"center",
     border:"solid 2px",
-    padding:"5px",
+    padding:"2px",
     borderRadius: "20px",
     
 }}

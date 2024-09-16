@@ -29,7 +29,7 @@ export default function Profile({ bioInfo, bioName }) {
                 About:
             </Text>
             
-            <Bio bioInfo={bioInfo}/>
+            <Bio about={bioInfo}/>
            
         </View>
     )

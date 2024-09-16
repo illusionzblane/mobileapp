@@ -1,8 +1,7 @@
 import { View, Text } from "react-native";
-import Image from "@/components/atoms/ProfileImage";
-import Bio from "@/components/atoms/Bio";
+import Image from "@/components/atoms/ProfileImage"
 
-export default function Profile({ bioInfo, bioName }) {
+export default function Profile({ bioInfo, bioName}) {
     return (
         <View
             style={{
@@ -28,9 +27,13 @@ export default function Profile({ bioInfo, bioName }) {
             >
                 About:
             </Text>
-            
-            <Bio bioInfo={bioInfo}/>
-           
+            <Text
+                style={{
+                    fontSize: "15px"
+                }}
+            >
+                {bioInfo}
+            </Text>
         </View>
     )
 }
